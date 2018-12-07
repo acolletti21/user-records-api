@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version 2.5.0
 
-Things you may want to cover:
 
-* Ruby version
+To run:
 
-* System dependencies
 
-* Configuration
+* `$ bundle`
 
-* Database creation
+* `$ rails db:migrate`
 
-* Database initialization
+* `$ rails db:seed`
 
-* How to run the test suite
+* `$ rails s`
 
-* Services (job queues, cache servers, search engines, etc.)
+* View user list at localhost:3000/users and at localhost:3000/users.json
 
-* Deployment instructions
-
-* ...
+* run test 'rspec spec/controllers/users_controller_spec.rb'
